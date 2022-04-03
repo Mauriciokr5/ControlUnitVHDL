@@ -10,6 +10,7 @@ entity FSM is
 		SALIDA: OUT STD_LOGIC_VECTOR(12 DOWNTO 0);
 		m_clk: inOUT std_logic;
 		rst: in std_logic);
+		
 end FSM;
 
 architecture Behavioral of FSM is
@@ -24,7 +25,7 @@ architecture Behavioral of FSM is
 	-- signals registros especializados
 	
 	signal IR: std_logic_vector(7 downto 0);
-	signal PC: std_logic_vector(5 downto 0);
+	signal PC: std_logic_vector(5 downto 0):="000000";
 	signal MBR: std_logic_vector(27 downto 0);
 	signal MAR: std_logic_vector(5 downto 0);
 	
@@ -34,7 +35,7 @@ architecture Behavioral of FSM is
 	SIGNAL A: STD_LOGIC_VECTOR(9 DOWNTO 0);
 	SIGNAL B: STD_LOGIC_VECTOR(9 DOWNTO 0);
 	SIGNAL A_AUX, B_AUX: STD_LOGIC_VECTOR(11 DOWNTO 0);
-	SIGNAL FLAG_FINDECO : std_logic:='0';
+	SIGNAL FLAG_FINDECO : std_logic;
 	
 	------------Registros de proposito general
 	SIGNAL RA: std_logic_vector(9 downto 0);
@@ -65,7 +66,7 @@ architecture Behavioral of FSM is
 	
 
 begin
-
+	s_sel <= selector;
     -- registro de estados
     process(m_clk)
     begin
@@ -79,17 +80,15 @@ begin
     end process;
 	
 	
-	with selector select PC <=
-	"000000" when "00",
-	"000000" when "01",
-	"000000" when "10",
-	"000000" when others;
+	
 	
 
     -- Lógica de estado siguiente (circuito combinacional)
     process (edo_presente)
+	
     begin
         edo_futuro <= edo_presente; 
+		
         case edo_presente is 
         when fetch =>
             IF(MBR = "0000000000000000000000000000") THEN
@@ -106,6 +105,7 @@ begin
 				   edo_futuro <= fetch;
 			 end if;
         end case;
+		
     end process;
     
     -- salida tipo Moore
@@ -131,6 +131,7 @@ begin
 				ELSIF(MBR(1 DOWNTO 0) = "11") THEN
 					B<=RD;
 				END IF;
+				
 				IF(MBR(10 DOWNTO 9) = "00") THEN
 					A<=RA;
 				ELSIF(MBR(10 DOWNTO 9) = "01") THEN
