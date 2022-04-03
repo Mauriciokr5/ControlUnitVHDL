@@ -1,0 +1,11 @@
+#Start recording tcl command: 3/31/2022 20:21:23
+#Project Location: C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2; Project name: PRACTICA2INTENTO2
+prj_project open "C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/PRACTICA2INTENTO2.ldf"
+prj_src add "C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/PRACTICA2/PRACTICA2.spf"
+prj_src add "C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/practica2/practica2.spf"
+prj_src add "C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/practica2/practica2.spf"
+prj_src add "C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/PRACTICA2/PRACTICA2.spf"
+prj_run Export -impl impl1 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 3/31/2022 21:31:01

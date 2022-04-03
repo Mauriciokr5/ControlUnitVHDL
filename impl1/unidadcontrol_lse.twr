@@ -1,0 +1,227 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Sun Apr 03 13:24:32 2022
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     unidadcontrol
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk5 [get_nets RD_9__N_14]
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk4 [get_nets RA_9__N_1]
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk3 [get_nets RB_9__N_3]
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk2 [get_nets RC_9__N_8]
+            0 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk1 [get_nets edo_presente]
+            104 items scored, 72 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 2.328ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S1A     CK             MBR_27__I_0_i6  (from edo_presente +)
+   Destination:    FD1S1A     D              B_AUX_9__I_0_i6  (to edo_presente +)
+
+   Delay:                   4.682ns  (25.5% logic, 74.5% route), 3 logic levels.
+
+ Constraint Details:
+
+      4.682ns data_path MBR_27__I_0_i6 to B_AUX_9__I_0_i6 violates
+      2.500ns delay constraint less
+      0.146ns L_S requirement (totaling 2.354ns) by 2.328ns
+
+ Path Details: MBR_27__I_0_i6 to B_AUX_9__I_0_i6
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              MBR_27__I_0_i6 (from edo_presente)
+Route        22   e 1.579                                  IR[5]
+LUT4        ---     0.448              B to Z              i1736_4_lut_2_lut
+Route         4   e 1.120                                  n2028
+MOFX0       ---     0.344             C0 to Z              MBR_5__I_0
+Route         1   e 0.788                                  B_AUX_9__N_91
+                  --------
+                    4.682  (25.5% logic, 74.5% route), 3 logic levels.
+
+
+Error:  The following path violates requirements by 2.328ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S1A     CK             MBR_27__I_0_i6  (from edo_presente +)
+   Destination:    FD1S1A     D              B_AUX_9__I_0_i5  (to edo_presente +)
+
+   Delay:                   4.682ns  (25.5% logic, 74.5% route), 3 logic levels.
+
+ Constraint Details:
+
+      4.682ns data_path MBR_27__I_0_i6 to B_AUX_9__I_0_i5 violates
+      2.500ns delay constraint less
+      0.146ns L_S requirement (totaling 2.354ns) by 2.328ns
+
+ Path Details: MBR_27__I_0_i6 to B_AUX_9__I_0_i5
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              MBR_27__I_0_i6 (from edo_presente)
+Route        22   e 1.579                                  IR[5]
+LUT4        ---     0.448              B to Z              i1736_4_lut_2_lut
+Route         4   e 1.120                                  n2028
+MOFX0       ---     0.344             C0 to Z              MBR_4__I_0
+Route         1   e 0.788                                  B_AUX_9__N_95
+                  --------
+                    4.682  (25.5% logic, 74.5% route), 3 logic levels.
+
+
+Error:  The following path violates requirements by 2.328ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S1A     CK             MBR_27__I_0_i6  (from edo_presente +)
+   Destination:    FD1S1A     D              B_AUX_9__I_0_i4  (to edo_presente +)
+
+   Delay:                   4.682ns  (25.5% logic, 74.5% route), 3 logic levels.
+
+ Constraint Details:
+
+      4.682ns data_path MBR_27__I_0_i6 to B_AUX_9__I_0_i4 violates
+      2.500ns delay constraint less
+      0.146ns L_S requirement (totaling 2.354ns) by 2.328ns
+
+ Path Details: MBR_27__I_0_i6 to B_AUX_9__I_0_i4
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              MBR_27__I_0_i6 (from edo_presente)
+Route        22   e 1.579                                  IR[5]
+LUT4        ---     0.448              B to Z              i1736_4_lut_2_lut
+Route         4   e 1.120                                  n2028
+MOFX0       ---     0.344             C0 to Z              MBR_3__I_0
+Route         1   e 0.788                                  B_AUX_9__N_99
+                  --------
+                    4.682  (25.5% logic, 74.5% route), 3 logic levels.
+
+Warning: 4.828 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets m_clk_c]
+            1 item scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 2.479ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1S3AX    CK             edo_presente_991  (from m_clk_c +)
+   Destination:    FD1S3AX    D              edo_presente_991  (to m_clk_c +)
+
+   Delay:                   2.375ns  (35.8% logic, 64.2% route), 2 logic levels.
+
+ Constraint Details:
+
+      2.375ns data_path edo_presente_991 to edo_presente_991 meets
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 2.479ns
+
+ Path Details: edo_presente_991 to edo_presente_991
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              edo_presente_991 (from m_clk_c)
+Route        17   e 0.005                                  edo_presente
+LUT4        ---     0.448              A to Z              i1777
+Route        17   e 1.519                                  edo_presente_N_127
+                  --------
+                    2.375  (35.8% logic, 64.2% route), 2 logic levels.
+
+Report: 2.521 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk5 [get_nets RD_9__N_14]              |            -|            -|     0  
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk4 [get_nets RA_9__N_1]               |            -|            -|     0  
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk3 [get_nets RB_9__N_3]               |            -|            -|     0  
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk2 [get_nets RC_9__N_8]               |            -|            -|     0  
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets edo_presente]            |     5.000 ns|     9.656 ns|     3 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets m_clk_c]                 |     5.000 ns|     2.521 ns|     2  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+1 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+n1704                                   |      12|      48|     66.67%
+                                        |        |        |
+IR[5]                                   |      22|      24|     33.33%
+                                        |        |        |
+IR[0]                                   |       2|      12|     16.67%
+                                        |        |        |
+IR[1]                                   |       2|      12|     16.67%
+                                        |        |        |
+IR[2]                                   |       2|      12|     16.67%
+                                        |        |        |
+IR[3]                                   |       2|      12|     16.67%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+Timing summary:
+---------------
+
+Timing errors: 72  Score: 157088
+
+Constraints cover  105 paths, 62 nets, and 189 connections (35.4% coverage)
+
+
+Peak memory: 82087936 bytes, TRCE: 1208320 bytes, DLYMAN: 163840 bytes
+CPU_TIME_REPORT: 0 secs 

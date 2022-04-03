@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="LSE_Compile">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/impl1</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/sumadorcompleto.vhd(4): </Dynamic>
+            <Dynamic>sumador_completo</Dynamic>
+            <Navigation>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/sumadorcompleto.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/sumadorcompleto.vhd(11): </Dynamic>
+            <Dynamic>comportamiento</Dynamic>
+            <Navigation>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/sumadorcompleto.vhd</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/sumador13bits.vhd(4): </Dynamic>
+            <Dynamic>sumador_13bits</Dynamic>
+            <Navigation>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/sumador13bits.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/sumador13bits.vhd(12): </Dynamic>
+            <Dynamic>comportamiento</Dynamic>
+            <Navigation>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/sumador13bits.vhd</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/multiplicador.vhd(6): </Dynamic>
+            <Dynamic>mult_comb_gen</Dynamic>
+            <Navigation>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/multiplicador.vhd</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/multiplicador.vhd(15): </Dynamic>
+            <Dynamic>behavioral</Dynamic>
+            <Navigation>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/multiplicador.vhd</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/divisor.vhd(8): </Dynamic>
+            <Dynamic>div6</Dynamic>
+            <Navigation>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/divisor.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/divisor.vhd(18): </Dynamic>
+            <Dynamic>foo</Dynamic>
+            <Navigation>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/divisor.vhd</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/lsl.vhd(3): </Dynamic>
+            <Dynamic>brrl_s</Dynamic>
+            <Navigation>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/lsl.vhd</Navigation>
+            <Navigation>3</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/lsl.vhd(9): </Dynamic>
+            <Dynamic>brrl_s_b</Dynamic>
+            <Navigation>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/lsl.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/rom.vhd(5): </Dynamic>
+            <Dynamic>rom</Dynamic>
+            <Navigation>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/rom.vhd</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/rom.vhd(15): </Dynamic>
+            <Dynamic>behav</Dynamic>
+            <Navigation>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/rom.vhd</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/rom.vhd(13): </Dynamic>
+            <Dynamic>ROM</Dynamic>
+            <Dynamic>Behav</Dynamic>
+            <Navigation>c:/users/brauu/documents/instituto politecnico nacional/escom/semestre5/arquitectura computacional/practica2intento2/rom.vhd</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+    </Task>
+    <Task name="Map">
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/PRACTICA2INTENTO2.lpf(15): Semantic error in &quot;LOCATE COMP &quot;VCC_GND_DIS[0]&quot; SITE &quot;76&quot; ;&quot;: </Dynamic>
+            <Dynamic>VCC_GND_DIS[0]</Dynamic>
+            <Navigation>D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/PRACTICA2INTENTO2.lpf</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/PRACTICA2INTENTO2.lpf(16): Semantic error in &quot;LOCATE COMP &quot;VCC_GND_DIS[1]&quot; SITE &quot;75&quot; ;&quot;: </Dynamic>
+            <Dynamic>VCC_GND_DIS[1]</Dynamic>
+            <Navigation>D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/PRACTICA2INTENTO2.lpf</Navigation>
+            <Navigation>16</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/PRACTICA2INTENTO2.lpf(17): Semantic error in &quot;LOCATE COMP &quot;VCC_GND_DIS[2]&quot; SITE &quot;74&quot; ;&quot;: </Dynamic>
+            <Dynamic>VCC_GND_DIS[2]</Dynamic>
+            <Navigation>D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/PRACTICA2INTENTO2.lpf</Navigation>
+            <Navigation>17</Navigation>
+        </Message>
+        <Message>
+            <ID>1100679</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/PRACTICA2INTENTO2.lpf(18): Semantic error in &quot;LOCATE COMP &quot;VCC_GND_DIS[3]&quot; SITE &quot;73&quot; ;&quot;: </Dynamic>
+            <Dynamic>VCC_GND_DIS[3]</Dynamic>
+            <Navigation>D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/PRACTICA2INTENTO2.lpf</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>selector[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>selector[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>selector[1:0](1)</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>selector[1:0](0)</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/impl1</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/sumadorcompleto.vhd(4): </Dynamic>
+            <Dynamic>sumador_completo</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/sumadorcompleto.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/sumadorcompleto.vhd(11): </Dynamic>
+            <Dynamic>comportamiento</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/sumadorcompleto.vhd</Navigation>
+            <Navigation>11</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/sumador13bits.vhd(4): </Dynamic>
+            <Dynamic>sumador_13bits</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/sumador13bits.vhd</Navigation>
+            <Navigation>4</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/sumador13bits.vhd(12): </Dynamic>
+            <Dynamic>comportamiento</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/sumador13bits.vhd</Navigation>
+            <Navigation>12</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/multiplicador.vhd(6): </Dynamic>
+            <Dynamic>mult_comb_gen</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/multiplicador.vhd</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/multiplicador.vhd(15): </Dynamic>
+            <Dynamic>behavioral</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/multiplicador.vhd</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/divisor.vhd(8): </Dynamic>
+            <Dynamic>div6</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/divisor.vhd</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/divisor.vhd(18): </Dynamic>
+            <Dynamic>foo</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/divisor.vhd</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/lsl.vhd(3): </Dynamic>
+            <Dynamic>brrl_s</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/lsl.vhd</Navigation>
+            <Navigation>3</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/lsl.vhd(9): </Dynamic>
+            <Dynamic>brrl_s_b</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/lsl.vhd</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/alu.vhd(6): </Dynamic>
+            <Dynamic>alu</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/alu.vhd</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/alu.vhd(18): </Dynamic>
+            <Dynamic>alub</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/alu.vhd</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/rom.vhd(5): </Dynamic>
+            <Dynamic>rom</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/rom.vhd</Navigation>
+            <Navigation>5</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/rom.vhd(15): </Dynamic>
+            <Dynamic>behav</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/rom.vhd</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/unidadcontrol.vhd(6): </Dynamic>
+            <Dynamic>unidadcontrol</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/unidadcontrol.vhd</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/unidadcontrol.vhd(15): </Dynamic>
+            <Dynamic>a_unidadcontrol</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/unidadcontrol.vhd</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35935013</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/unidadcontrol.vhd(128): </Dynamic>
+            <Dynamic>inicio_992</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/unidadcontrol.vhd</Navigation>
+            <Navigation>128</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/unidadcontrol.vhd(13): </Dynamic>
+            <Dynamic>unidadcontrol</Dynamic>
+            <Dynamic>a_unidadcontrol</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/unidadcontrol.vhd</Navigation>
+            <Navigation>13</Navigation>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>n332</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUT_ALU[11]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUT_ALU[10]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUT_ALU[9]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUT_ALU[8]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUT_ALU[7]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUT_ALU[6]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUT_ALU[5]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUT_ALU[4]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUT_ALU[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUT_ALU[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUT_ALU[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUT_ALU[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001771</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>indet</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>selector[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>selector[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUTT_DISPLAY[6]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUTT_DISPLAY[5]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUTT_DISPLAY[4]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUTT_DISPLAY[3]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUTT_DISPLAY[2]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUTT_DISPLAY[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>OUTT_DISPLAY[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>SIG</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>IDET</Dynamic>
+        </Message>
+        <Message>
+            <ID>35935014</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/rom.vhd(53): </Dynamic>
+            <Dynamic>\CALL0/i16_346</Dynamic>
+            <Navigation>d:/documentos/escom/quinto semestre/arquitectura de computadoras/practica 2/practica2intento2/rom.vhd</Navigation>
+            <Navigation>53</Navigation>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>selector[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35002005</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>selector[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>selector[1]</Dynamic>
+            <Navigation>selector[1]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>selector[1]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>selector[0]</Dynamic>
+            <Navigation>selector[0]</Navigation>
+        </Message>
+        <Message>
+            <ID>1166064</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>input</Dynamic>
+            <Dynamic>selector[0]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>4</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>m_clk_c</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+            <Dynamic>m_clk</Dynamic>
+            <Dynamic>59</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=RB_9__N_3 loads=3 clock_loads=3
+   Signal=RA_9__N_1 loads=3 clock_loads=3
+   Signal=RC_9__N_8 loads=3 clock_loads=3</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=RB_9__N_3 loads=3 clock_loads=3
+   Signal=RA_9__N_1 loads=3 clock_loads=3
+   Signal=RC_9__N_8 loads=3 clock_loads=3</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

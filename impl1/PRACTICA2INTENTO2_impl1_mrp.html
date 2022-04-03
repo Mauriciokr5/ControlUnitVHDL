@@ -1,0 +1,311 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+        Lattice Mapping Report File for Design Module 'unidadcontrol'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
+     PRACTICA2INTENTO2_impl1.ngd -o PRACTICA2INTENTO2_impl1_map.ncd -pr
+     PRACTICA2INTENTO2_impl1.prf -mp PRACTICA2INTENTO2_impl1.mrp -lpf
+     D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica
+     2/PRACTICA2INTENTO2/impl1/PRACTICA2INTENTO2_impl1.lpf -lpf
+     D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica
+     2/PRACTICA2INTENTO2/PRACTICA2INTENTO2.lpf -c 0 -gui -msgset
+     D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica
+     2/PRACTICA2INTENTO2/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.12.0.240.2
+Mapped on:  04/03/22  13:24:32
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:     78 out of  7209 (1%)
+      PFU registers:           78 out of  6864 (1%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:        52 out of  3432 (2%)
+      SLICEs as Logic/ROM:     52 out of  3432 (2%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         20 out of  3432 (1%)
+   Number of LUT4s:        102 out of  6864 (1%)
+      Number used as logic LUTs:         62
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       40
+      Number used as shift registers:     0
+   Number of PIO sites used: 23 + 4(JTAG) out of 115 (23%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:        0 out of 1 (0%)
+   EFB used :        No
+   JTAG used :       No
+   Readback used :   No
+   Oscillator used : No
+   Startup used :    No
+   POR :             On
+   Bandgap :         On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+   Number of clocks:  7
+     Net edo_presente: 20 loads, 12 rising, 8 falling (Driver: edo_presente_991
+     )
+     Net RB_9__N_3: 3 loads, 3 rising, 0 falling (Driver: i1_2_lut_3_lut )
+     Net RA_9__N_1: 3 loads, 3 rising, 0 falling (Driver: i1_2_lut_3_lut_adj_75
+     )
+     Net FACT1_5__N_310: 6 loads, 6 rising, 0 falling (Driver:
+     i2_2_lut_3_lut_4_lut )
+     Net RC_9__N_8: 3 loads, 3 rising, 0 falling (Driver: i1_2_lut_3_lut_adj_80
+     )
+     Net m_clk_c: 8 loads, 8 rising, 0 falling (Driver: PIO m_clk )
+     Net RD_9__N_14: 6 loads, 6 rising, 0 falling (Driver: i1_2_lut_3_lut_adj_81
+     )
+   Number of Clock Enables:  0
+   Number of LSRs:  2
+     Net n1704: 6 loads, 6 LSLICEs
+     Net CALL0/n1487: 7 loads, 7 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net IR_5: 22 loads
+     Net Data_out_27_N_128_14: 14 loads
+     Net Data_out_27_N_128_15: 14 loads
+     Net MAR_1: 13 loads
+     Net MAR_2: 12 loads
+     Net Data_out_27_N_128_0: 10 loads
+     Net MAR_0: 10 loads
+     Net Data_out_27_N_128_10: 9 loads
+     Net CALL0/n1487: 7 loads
+     Net n1704: 6 loads
+
+
+
+
+   Number of warnings:  8
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de
+     computadoras/Practica 2/PRACTICA2INTENTO2/PRACTICA2INTENTO2.lpf(15):
+     Semantic error in "LOCATE COMP "VCC_GND_DIS[0]" SITE "76" ;": COMP
+     "VCC_GND_DIS[0]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de
+     computadoras/Practica 2/PRACTICA2INTENTO2/PRACTICA2INTENTO2.lpf(16):
+     Semantic error in "LOCATE COMP "VCC_GND_DIS[1]" SITE "75" ;": COMP
+     "VCC_GND_DIS[1]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de
+     computadoras/Practica 2/PRACTICA2INTENTO2/PRACTICA2INTENTO2.lpf(17):
+     Semantic error in "LOCATE COMP "VCC_GND_DIS[2]" SITE "74" ;": COMP
+     "VCC_GND_DIS[2]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de
+
+     computadoras/Practica 2/PRACTICA2INTENTO2/PRACTICA2INTENTO2.lpf(18):
+     Semantic error in "LOCATE COMP "VCC_GND_DIS[3]" SITE "73" ;": COMP
+     "VCC_GND_DIS[3]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: input pad net 'selector[1]' has no legal load.
+WARNING - map: input pad net 'selector[0]' has no legal load.
+WARNING - map: IO buffer missing for top level port selector[1:0](1)...logic
+     will be discarded.
+WARNING - map: IO buffer missing for top level port selector[1:0](0)...logic
+     will be discarded.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| OUTT_DISPLAY[6]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SALIDA[9]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SALIDA[10]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| OUTT_DISPLAY[5]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SALIDA[11]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SALIDA[12]          | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| IDET                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SIG                 | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| OUTT_DISPLAY[0]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| m_clk               | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| OUTT_DISPLAY[1]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SALIDA[0]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SALIDA[1]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| OUTT_DISPLAY[2]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SALIDA[2]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SALIDA[3]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| OUTT_DISPLAY[3]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SALIDA[4]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SALIDA[5]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+| OUTT_DISPLAY[4]     | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SALIDA[6]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SALIDA[7]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| SALIDA[8]           | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block i2 undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Signal VCC_net undriven or does not drive anything - clipped.
+Signal CALL1/CALL2/add_22_1/S0 undriven or does not drive anything - clipped.
+Signal CALL1/CALL2/add_22_1/CI undriven or does not drive anything - clipped.
+Signal CALL1/CALL2/add_22_7/CO undriven or does not drive anything - clipped.
+Signal CALL1/CALL2/add_23_1/S0 undriven or does not drive anything - clipped.
+Signal CALL1/CALL2/add_23_1/CI undriven or does not drive anything - clipped.
+Signal CALL1/CALL2/add_23_7/CO undriven or does not drive anything - clipped.
+Signal CALL1/CALL2/add_24_1/S0 undriven or does not drive anything - clipped.
+Signal CALL1/CALL2/add_24_1/CI undriven or does not drive anything - clipped.
+Signal CALL1/CALL2/add_24_7/CO undriven or does not drive anything - clipped.
+Signal CALL1/CALL2/add_25_1/S0 undriven or does not drive anything - clipped.
+Signal CALL1/CALL2/add_25_1/CI undriven or does not drive anything - clipped.
+Signal CALL1/CALL2/add_25_7/CO undriven or does not drive anything - clipped.
+Signal CALL1/CALL2/add_21_1/S0 undriven or does not drive anything - clipped.
+Signal CALL1/CALL2/add_21_1/CI undriven or does not drive anything - clipped.
+Signal CALL1/CALL2/add_21_7/CO undriven or does not drive anything - clipped.
+
+     
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 58 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

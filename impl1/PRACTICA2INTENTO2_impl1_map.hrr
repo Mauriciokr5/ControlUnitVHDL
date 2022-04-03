@@ -1,0 +1,42 @@
+---------------------------------------------------
+Report for cell unidadcontrol
+   Instance path: unidadcontrol
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      52.00        100.0
+                                  LUT4	      62.00        100.0
+                                 IOBUF	         23        100.0
+                                PFUREG	         78        100.0
+                                RIPPLE	         20        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                   ROM	          1        13.1
+                                   ALU	          1        25.0
+---------------------------------------------------
+Report for cell ALU
+   Instance path: unidadcontrol/CALL1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      13.00        25.0
+                                  LUT4	       1.00         1.6
+                                PFUREG	         12        15.4
+                                RIPPLE	         20        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                      mult_comb_gen(6)	          1        19.2
+---------------------------------------------------
+Report for cell mult_comb_gen(6)
+   Instance path: unidadcontrol/CALL1/CALL2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      10.00        19.2
+                                  LUT4	       1.00         1.6
+                                RIPPLE	         20        100.0
+---------------------------------------------------
+Report for cell ROM
+   Instance path: unidadcontrol/CALL0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.83        13.1
+                                  LUT4	      13.00        21.0
+                                PFUREG	         13        16.7

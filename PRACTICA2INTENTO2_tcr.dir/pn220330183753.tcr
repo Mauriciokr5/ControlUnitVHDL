@@ -1,0 +1,25 @@
+#Start recording tcl command: 3/30/2022 09:43:45
+#Project Location: C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2; Project name: PRACTICA2INTENTO2
+prj_project open "C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/PRACTICA2INTENTO2.ldf"
+prj_src add "C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/PRACTICA2/PRACTICA2.spf"
+prj_src add "C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/PRACTICA2/PRACTICA2.spf"
+prj_src add "C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/PRACTICA2/PRACTICA2.spf"
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_src add "C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/PRACTICA2/PRACTICA2.spf"
+pgr_project open "C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/impl1/impl1.xcf"
+pgr_program run
+prj_run Export -impl impl1 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/impl1/impl1.xcf"
+pgr_project close
+prj_src add "C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/practica2/practica2.spf"
+prj_src add "C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/practica2/practica2.spf"
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+prj_src add "C:/Users/brauu/Documents/Instituto Politecnico Nacional/ESCOM/SEMESTRE5/Arquitectura computacional/PRACTICA2INTENTO2/practica2/practica2.spf"
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+#Stop recording: 3/30/2022 18:37:53

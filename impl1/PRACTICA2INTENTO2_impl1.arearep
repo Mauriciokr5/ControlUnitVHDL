@@ -1,0 +1,49 @@
+----------------------------------------------------------------------
+Report for cell unidadcontrol.TECH
+Register bits:  78 of 7209 (1.082%)
+I/O cells:      23
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        20          100.0
+                             FD1S1A        52          100.0
+                             FD1S1I        12          100.0
+                            FD1S3AX         1          100.0
+                            FD1S3JX        13          100.0
+                                GSR         1          100.0
+                                 IB         1          100.0
+                                INV         1          100.0
+                               LUT4        60          100.0
+                                 OB        22          100.0
+                              PFUMX        12          100.0
+SUB MODULES
+                                ALU         1
+                                ROM         1
+                   mult_comb_gen(6)         1
+                              TOTAL       198
+----------------------------------------------------------------------
+Report for cell ALU.v1
+Instance Path : CALL1
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        20          100.0
+                             FD1S1I        12          100.0
+                               LUT4         1            1.7
+SUB MODULES
+                   mult_comb_gen(6)         1
+                              TOTAL        34
+----------------------------------------------------------------------
+Report for cell mult_comb_gen(6).v1
+Instance Path : CALL1.CALL2
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        20          100.0
+                               LUT4         1            1.7
+                              TOTAL        21
+----------------------------------------------------------------------
+Report for cell ROM.v1
+Instance Path : CALL0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                            FD1S3JX        13          100.0
+                               LUT4        13           21.7
+                              TOTAL        26
