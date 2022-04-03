@@ -1,6 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 entity FSM is
     Port ( 
@@ -34,6 +34,7 @@ architecture Behavioral of FSM is
 	SIGNAL A: STD_LOGIC_VECTOR(9 DOWNTO 0);
 	SIGNAL B: STD_LOGIC_VECTOR(9 DOWNTO 0);
 	SIGNAL A_AUX, B_AUX: STD_LOGIC_VECTOR(11 DOWNTO 0);
+	SIGNAL FLAG_FINDECO : std_logic:='0';
 	
 	------------Registros de proposito general
 	SIGNAL RA: std_logic_vector(9 downto 0);
@@ -76,6 +77,14 @@ begin
             end if;
          end if;
     end process;
+	
+	
+	with selector select PC <=
+	"000000" when "00",
+	"000000" when "01",
+	"000000" when "10",
+	"000000" when others;
+	
 
     -- Lógica de estado siguiente (circuito combinacional)
     process (edo_presente)
@@ -108,6 +117,9 @@ begin
         
         case edo_presente is 
         when fetch => 
+			MAR<=PC;
+			PC<= PC + "000001";
+			IR<= MBR(27 downto 20);
         when decodeexecute =>
 			IF(IR(7) = '1') THEN
 				IF(MBR(1 DOWNTO 0) = "00") THEN
