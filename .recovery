@@ -19,7 +19,7 @@
             <Options/>
         </Source>
         <Source name="alu.vhd" type="VHDL" type_short="VHDL">
-            <Options top_module="ALU"/>
+            <Options/>
         </Source>
         <Source name="rom.vhd" type="VHDL" type_short="VHDL">
             <Options/>
