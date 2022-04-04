@@ -83,7 +83,7 @@ begin
 	
 	
 
-    -- Lógica de estado siguiente (circuito combinacional)
+    -- L?gica de estado siguiente (circuito combinacional)
     process (edo_presente)
 	
     begin

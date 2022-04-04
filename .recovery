@@ -16,7 +16,7 @@
             <Options/>
         </Source>
         <Source name="lsl.vhd" type="VHDL" type_short="VHDL">
-            <Options/>
+            <Options top_module="BRRL_S"/>
         </Source>
         <Source name="alu.vhd" type="VHDL" type_short="VHDL">
             <Options/>
