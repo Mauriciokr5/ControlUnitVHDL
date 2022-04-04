@@ -13,10 +13,10 @@ Data_out: out std_logic_vector(27 downto 0)
 end ROM;
 --------------------------------------------------------------
 architecture Behav of ROM is
-constant x: std_logic_vector(9 downto 0):= "0000000101"; --1 --5
-constant y: std_logic_vector(9 downto 0):= "0000001001"; --2 --9
-constant z: std_logic_vector(9 downto 0):= "0000001010"; --3 --10
-constant w: std_logic_vector(9 downto 0):= "0000000010"; --4 --2
+constant x: std_logic_vector(9 downto 0):= "0000000001"; --1 
+constant y: std_logic_vector(9 downto 0):= "0000000010"; --2 
+constant z: std_logic_vector(9 downto 0):= "0000000011"; --3 
+constant w: std_logic_vector(9 downto 0):= "0000000100"; --4 
 type ROM_Array is array (0 to 31)
 of std_logic_vector(27 downto 0);
 constant Content: ROM_Array := (

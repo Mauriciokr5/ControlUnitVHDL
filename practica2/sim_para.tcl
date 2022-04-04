@@ -3,14 +3,14 @@ package require simulation_generation
 set ::bali::simulation::Para(DEVICEFAMILYNAME) {MachXO2}
 set ::bali::simulation::Para(PROJECT) {practica2}
 set ::bali::simulation::Para(PROJECTPATH) {D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2}
-set ::bali::simulation::Para(FILELIST) {"D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumadorcompleto.vhd" "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumador13bits.vhd" "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/divisor.vhd" "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/multiplicador.vhd" "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/lsl.vhd" "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/alu.vhd" "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/rom.vhd" "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/unidadcontrol.vhd" }
+set ::bali::simulation::Para(FILELIST) {"D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/lsl.vhd" "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumadorcompleto.vhd" "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumador13bits.vhd" "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/divisor.vhd" "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/multiplicador.vhd" "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/alu.vhd" "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/rom.vhd" "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/unidadcontrol.vhd" }
 set ::bali::simulation::Para(GLBINCLIST) {}
 set ::bali::simulation::Para(INCLIST) {"none" "none" "none" "none" "none" "none" "none" "none"}
 set ::bali::simulation::Para(WORKLIBLIST) {"work" "work" "work" "work" "work" "work" "work" "work" }
 set ::bali::simulation::Para(COMPLIST) {"VHDL" "VHDL" "VHDL" "VHDL" "VHDL" "VHDL" "VHDL" "VHDL" }
 set ::bali::simulation::Para(SIMLIBLIST) {pmi_work ovi_machxo2}
 set ::bali::simulation::Para(MACROLIST) {}
-set ::bali::simulation::Para(SIMULATIONTOPMODULE) {FSM}
+set ::bali::simulation::Para(SIMULATIONTOPMODULE) {BRRL_S}
 set ::bali::simulation::Para(SIMULATIONINSTANCE) {}
 set ::bali::simulation::Para(LANGUAGE) {VHDL}
 set ::bali::simulation::Para(SDFPATH)  {}

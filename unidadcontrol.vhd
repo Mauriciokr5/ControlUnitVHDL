@@ -25,7 +25,7 @@ architecture Behavioral of FSM is
 	-- signals registros especializados
 	
 	signal IR: std_logic_vector(7 downto 0);
-	signal PC: std_logic_vector(5 downto 0):="001110";
+	signal PC: std_logic_vector(5 downto 0):="000000";
 	signal MBR: std_logic_vector(27 downto 0);
 	signal MAR: std_logic_vector(5 downto 0);
 	
@@ -66,7 +66,7 @@ architecture Behavioral of FSM is
 	
 
 begin
-	s_sel <= selector;
+	
     -- registro de estados
     process(m_clk)
     begin
@@ -81,9 +81,8 @@ begin
 	
 	
 	
-	
 
-    -- L?gica de estado siguiente (circuito combinacional)
+    -- Logica de estado siguiente
     process (edo_presente)
 	
     begin
@@ -99,27 +98,27 @@ begin
         when decodeexecute =>
             edo_futuro <= FETCH;
         when pausa =>
-            IF( SELECTOR = S_SEL) THEN
-				 edo_futuro <= pausa;
-				  ELSE
-				   edo_futuro <= fetch;
-			 end if;
         end case;
 		
     end process;
     
-    -- salida tipo Moore
+    -- Procesos maquina de estados
     process (edo_presente)
     begin
-        -- estableciendo la salida por defecto
-        -- nos aseguramos de crear un circuito
-        -- combinacional sin latches.
-        
+	
         case edo_presente is 
         when fetch => 
 			MAR<=PC;
-			PC<= PC + "000001";
-			--IR<= MBR(27 downto 20);
+			if RST='1' then 
+				case selector is 
+				when "00" => PC <= "000000";
+				when "01" => PC <= "000110";
+				when "10" => PC <= "001110";
+				when others => PC <= "010100";
+				end case;
+            else 
+                PC<= PC + "000001";
+            end if;
 			IF(IR(7 DOWNTO 6) = "00") THEN
 			
 				A<=MBR(19 DOWNTO 10);
@@ -192,6 +191,7 @@ begin
         end case; 
     end process;    
 	
+	
 	CALL0: ROM PORT MAP (M_CLK,'0','1','1', MAR(5 DOWNTO 0), MBR(27 DOWNTO 0));
 	A_AUX <= "00" & A;
 	B_AUX <= "00" & B;
@@ -202,6 +202,7 @@ begin
 			  OUT_ALU => ResultadoOP,
 			  SIGNO => SIG,
 			  INDET => IDET);
+			  
 	 SALIDA <= ResultadoOP;
 
 end Behavioral;
