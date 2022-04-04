@@ -25,7 +25,7 @@ architecture Behavioral of FSM is
 	-- signals registros especializados
 	
 	signal IR: std_logic_vector(7 downto 0);
-	signal PC: std_logic_vector(5 downto 0):="000000";
+	signal PC: std_logic_vector(5 downto 0):="000110";
 	signal MBR: std_logic_vector(27 downto 0);
 	signal MAR: std_logic_vector(5 downto 0);
 	
@@ -120,7 +120,14 @@ begin
 			MAR<=PC;
 			PC<= PC + "000001";
 			--IR<= MBR(27 downto 20);
-			IF(IR(7) = '1') THEN
+			IF(IR(7 DOWNTO 6) = "00") THEN
+			
+				A<=MBR(19 DOWNTO 10);
+				B<=MBR(9 DOWNTO 0);
+				
+			ELSIF(IR(7 DOWNTO 6) = "01") THEN
+			
+				A<=MBR(19 DOWNTO 10);
 				IF(MBR(1 DOWNTO 0) = "00") THEN
 					B<=RA;
 				ELSIF(MBR(1 DOWNTO 0) = "01") THEN
@@ -131,19 +138,44 @@ begin
 					B<=RD;
 				END IF;
 				
-				IF(MBR(10 DOWNTO 9) = "00") THEN
+			ELSIF(IR(7 DOWNTO 6) = "10") THEN
+			
+				IF(MBR(11 DOWNTO 10) = "00") THEN
 					A<=RA;
-				ELSIF(MBR(10 DOWNTO 9) = "01") THEN
+				ELSIF(MBR(11 DOWNTO 10) = "01") THEN
 					A<=RB;
-				ELSIF(MBR(10 DOWNTO 9) = "10") THEN
+				ELSIF(MBR(11 DOWNTO 10) = "10") THEN
 					A<=RC;
-				ELSIF(MBR(10 DOWNTO 9) = "11") THEN
+				ELSIF(MBR(11 DOWNTO 10) = "11") THEN
 					A<=RD;
 				END IF;
-			ELSE
-				A<=MBR(19 DOWNTO 10);
+				
 				B<=MBR(9 DOWNTO 0);
+				
+			ELSIF(IR(7 DOWNTO 6) = "11") THEN
+			
+				IF(MBR(11 DOWNTO 10) = "00") THEN
+					A<=RA;
+				ELSIF(MBR(11 DOWNTO 10) = "01") THEN
+					A<=RB;
+				ELSIF(MBR(11 DOWNTO 10) = "10") THEN
+					A<=RC;
+				ELSIF(MBR(11 DOWNTO 10) = "11") THEN
+					A<=RD;
+				END IF;
+				
+				IF(MBR(1 DOWNTO 0) = "00") THEN
+					B<=RA;
+				ELSIF(MBR(1 DOWNTO 0) = "01") THEN
+					B<=RB;
+				ELSIF(MBR(1 DOWNTO 0) = "10") THEN
+					B<=RC;
+				ELSIF(MBR(1 DOWNTO 0) = "11") THEN
+					B<=RD;
+				END IF;
+				
 			END IF;
+			
         when decodeexecute =>
 			
 			IF(IR(5 DOWNTO 4) = "00") THEN

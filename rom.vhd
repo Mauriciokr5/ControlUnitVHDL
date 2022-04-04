@@ -13,27 +13,26 @@ Data_out: out std_logic_vector(27 downto 0)
 end ROM;
 --------------------------------------------------------------
 architecture Behav of ROM is
-constant x: std_logic_vector(9 downto 0):= "0000000001";
-constant y: std_logic_vector(9 downto 0):= "0000000010";
-constant z: std_logic_vector(9 downto 0):= "0000000011";
-constant w: std_logic_vector(9 downto 0):= "0000001000";
+constant x: std_logic_vector(9 downto 0):= "0000000001"; --1
+constant y: std_logic_vector(9 downto 0):= "0000000010"; --2
+constant z: std_logic_vector(9 downto 0):= "0000000011"; --3
+constant w: std_logic_vector(9 downto 0):= "0000000100"; --4
 type ROM_Array is array (0 to 31)
 of std_logic_vector(27 downto 0);
 constant Content: ROM_Array := (
-0 => "000010010000001101" & X, -- MULTIPLICACION 13 Y X
+0 => "000010010000001101" & X, -- MULTIPLICACION 13 Y X				--EC1
 1 => "000110010000010111" & Y, -- MULTIPLICACION 23 Y Y 
-2 => "1010011100000000000000000001", -- SUMA REGISTRO A Y REGISTRO B, EL 1 EN EL BIT MAS SIGNIFICATIVO INDICA QUE SE TRABAJA CON REGISTROS
+2 => "1110011100000000000000000001", -- SUMA REGISTRO A Y REGISTRO B, EL 1 EN EL BIT MAS SIGNIFICATIVO INDICA QUE SE TRABAJA CON REGISTROS
 3 => "00001010" & W & "0000000100", -- DIVISION W / 4 
-4 => "1011100000000000010000000000", -- RESTA REGISTRO C(10) CON REGISTRO A(00), RESULTADO FINAL
+4 => "1111100000000000100000000000", -- RESTA REGISTRO C(10) CON REGISTRO A(00), RESULTADO FINAL
 5 => "0000000000000000000000000000", -- PAUSA EN SISTEMA
---6 => "1111111001", -- -7 
---7 => "1111111011", -- -5
---8 => "0000000101", -- 5
---9 => "0000000001", -- X = 1
---10 => "0000000010", -- Y = 2
---11 => "0000000011", -- Z = 3
---12 => "0000000100", -- W = 4
---13 => "0000001011", -- Comienza EC.1 LOAD #13, DIRECCION 0
+6 => "00001001"& x & x, -- RA <= X * X							--EC 2
+7 => "0101100100000001010000000000", -- RB <= 5 * RA
+8 => "001010010000011110" & x, -- RC <= 30 * X
+9 => "1100011100000000010000000010", -- RA <= RB + RC
+11 => "00011010"& Z & "0000000010", -- RB <= Z / 2
+12 => "1111100000000000000000000001", --<= RA - RB
+13 => "0000000000000000000000000000", -- PAUSA EN SISTEMA
 --14 => "0010011001", -- MULT #X, DIR 9
 OTHERS => "1111111111111111111111111111" --
 );
