@@ -16,7 +16,7 @@ architecture Behav of ROM is
 constant x: std_logic_vector(9 downto 0):= "0000000001";
 constant y: std_logic_vector(9 downto 0):= "0000000010";
 constant z: std_logic_vector(9 downto 0):= "0000000011";
-constant w: std_logic_vector(9 downto 0):= "0000000100";
+constant w: std_logic_vector(9 downto 0):= "0000001000";
 type ROM_Array is array (0 to 31)
 of std_logic_vector(27 downto 0);
 constant Content: ROM_Array := (
@@ -24,7 +24,7 @@ constant Content: ROM_Array := (
 1 => "000110010000010111" & Y, -- MULTIPLICACION 23 Y Y 
 2 => "1010011100000000000000000001", -- SUMA REGISTRO A Y REGISTRO B, EL 1 EN EL BIT MAS SIGNIFICATIVO INDICA QUE SE TRABAJA CON REGISTROS
 3 => "00001010" & W & "0000000100", -- DIVISION W / 4 
-4 => "1011100000000000100000000000", -- RESTA REGISTRO C CON REGISTRO A, RESULTADO FINAL
+4 => "1011100000000000010000000000", -- RESTA REGISTRO C(10) CON REGISTRO A(00), RESULTADO FINAL
 5 => "0000000000000000000000000000", -- PAUSA EN SISTEMA
 --6 => "1111111001", -- -7 
 --7 => "1111111011", -- -5

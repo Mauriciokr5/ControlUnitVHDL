@@ -15,7 +15,7 @@ Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 53
+!i122 70
 R0
 Z6 8D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/alu.vhd
 Z7 FD:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/alu.vhd
@@ -25,9 +25,9 @@ V]cZ@DBUNY8Q5cXVE_9dXZ2
 !s100 2?F>=X[RFK9QnJK9PdK8P0
 Z8 OT;C;2020.3;71
 32
-Z9 !s110 1649083233
+Z9 !s110 1649084506
 !i10b 1
-Z10 !s108 1649083233.000000
+Z10 !s108 1649084506.000000
 Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/alu.vhd|
 Z12 !s107 D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/alu.vhd|
 !i113 1
@@ -39,7 +39,7 @@ R3
 R4
 R5
 DEx4 work 3 alu 0 22 ]cZ@DBUNY8Q5cXVE_9dXZ2
-!i122 53
+!i122 70
 l84
 L18 99
 V@J^=HOGjj0ZTR2lOmFG1o3
@@ -58,7 +58,7 @@ Ebrrl_s
 Z15 w1648585792
 R4
 R5
-!i122 52
+!i122 69
 R0
 Z16 8D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/lsl.vhd
 Z17 FD:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/lsl.vhd
@@ -80,7 +80,7 @@ Abrrl_s_b
 R4
 R5
 DEx4 work 6 brrl_s 0 22 3X7F=JBnNZI@9AAJ3nGLD3
-!i122 52
+!i122 69
 l10
 L9 23
 VZBXhdfij5^?BHRO^HB0212
@@ -102,7 +102,7 @@ Z21 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R3
 R4
 R5
-!i122 50
+!i122 67
 R0
 Z22 8D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/divisor.vhd
 Z23 FD:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/divisor.vhd
@@ -114,9 +114,9 @@ R8
 32
 R9
 !i10b 1
-R10
-Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/divisor.vhd|
-Z25 !s107 D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/divisor.vhd|
+Z24 !s108 1649084505.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/divisor.vhd|
+Z26 !s107 D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/divisor.vhd|
 !i113 1
 R13
 R14
@@ -127,7 +127,7 @@ R3
 R4
 R5
 DEx4 work 4 div6 0 22 Bjmn@h^`C<0oY7SkBHQ3W3
-!i122 50
+!i122 67
 l19
 L18 27
 V8V>gY[1U:3loMPL^`96YE0
@@ -136,33 +136,33 @@ R8
 32
 R9
 !i10b 1
-R10
 R24
 R25
+R26
 !i113 1
 R13
 R14
 Efsm
-Z26 w1649083221
+Z27 w1649083690
 R3
 R2
 R4
 R5
-!i122 55
+!i122 72
 R0
-Z27 8D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/unidadcontrol.vhd
-Z28 FD:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/unidadcontrol.vhd
+Z28 8D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/unidadcontrol.vhd
+Z29 FD:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/unidadcontrol.vhd
 l0
 L5 1
 VPBHB3i?N_cF?J61i8WPdM0
 !s100 V;K>EN;J1Io9S_GSBm@0h1
 R8
 32
-Z29 !s110 1649083234
+Z30 !s110 1649084507
 !i10b 1
-R10
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/unidadcontrol.vhd|
-Z31 !s107 D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/unidadcontrol.vhd|
+Z31 !s108 1649084507.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/unidadcontrol.vhd|
+Z33 !s107 D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/unidadcontrol.vhd|
 !i113 1
 R13
 R14
@@ -171,33 +171,33 @@ R3
 R2
 R4
 R5
-Z32 DEx4 work 3 fsm 0 22 PBHB3i?N_cF?J61i8WPdM0
-!i122 55
+Z34 DEx4 work 3 fsm 0 22 PBHB3i?N_cF?J61i8WPdM0
+!i122 72
 l68
-L16 159
-VkM1_e7W2NJa3_n>WdHV7o1
-!s100 A7i]`Fg?=L[R^=4FX_=X<0
+Z35 L16 160
+Z36 V9f?6aHOJ:310il0MdAB3_1
+Z37 !s100 JDcnl<4KTf7?c[BSQi^cG2
 R8
 32
-R29
-!i10b 1
-R10
 R30
+!i10b 1
 R31
+R32
+R33
 !i113 1
 R13
 R14
 Emult_comb_gen
-Z33 w1648585731
+Z38 w1648585731
 R3
 R2
 R21
 R4
 R5
-!i122 51
+!i122 68
 R0
-Z34 8D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/multiplicador.vhd
-Z35 FD:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/multiplicador.vhd
+Z39 8D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/multiplicador.vhd
+Z40 FD:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/multiplicador.vhd
 l0
 L6 1
 VNfCDIETZZ45_GHzj=gcmC2
@@ -207,8 +207,8 @@ R8
 R9
 !i10b 1
 R10
-Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/multiplicador.vhd|
-Z37 !s107 D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/multiplicador.vhd|
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/multiplicador.vhd|
+Z42 !s107 D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/multiplicador.vhd|
 !i113 1
 R13
 R14
@@ -219,56 +219,11 @@ R21
 R4
 R5
 DEx4 work 13 mult_comb_gen 0 22 NfCDIETZZ45_GHzj=gcmC2
-!i122 51
+!i122 68
 l20
 L15 19
 VLj>0ndM;2Eg0B9AF^[==?3
 !s100 26QC=d7]bU4nbN@n3oEhQ0
-R8
-32
-R9
-!i10b 1
-R10
-R36
-R37
-!i113 1
-R13
-R14
-Erom
-Z38 w1648585906
-R2
-R3
-R4
-R5
-!i122 54
-R0
-Z39 8D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/rom.vhd
-Z40 FD:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/rom.vhd
-l0
-L5 1
-VPU_@=>6[Y;cMjD>adC3aB2
-!s100 2gDbQNK40LdYC2CJHijFo2
-R8
-32
-R9
-!i10b 1
-R10
-Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/rom.vhd|
-Z42 !s107 D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/rom.vhd|
-!i113 1
-R13
-R14
-Abehav
-R2
-R3
-R4
-R5
-DEx4 work 3 rom 0 22 PU_@=>6[Y;cMjD>adC3aB2
-!i122 54
-l40
-L15 41
-Vzi3Y][2h5_A`HT4XHb^ae1
-!s100 PLGNZRVHXbYP0mA[]?jD93
 R8
 32
 R9
@@ -279,25 +234,70 @@ R42
 !i113 1
 R13
 R14
-Esumador_13bits
-Z43 w1648585698
+Erom
+Z43 w1649084493
+R2
+R3
 R4
 R5
-!i122 49
+!i122 71
 R0
-Z44 8D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumador13bits.vhd
-Z45 FD:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumador13bits.vhd
+Z44 8D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/rom.vhd
+Z45 FD:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/rom.vhd
+l0
+L5 1
+VPU_@=>6[Y;cMjD>adC3aB2
+!s100 2gDbQNK40LdYC2CJHijFo2
+R8
+32
+R9
+!i10b 1
+R10
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/rom.vhd|
+Z47 !s107 D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/rom.vhd|
+!i113 1
+R13
+R14
+Abehav
+R2
+R3
+R4
+R5
+DEx4 work 3 rom 0 22 PU_@=>6[Y;cMjD>adC3aB2
+!i122 71
+l40
+L15 41
+V]:mLmVL=6cO2BS<;9Ecc73
+!s100 ]_Z1oXmTGk]?n_1>bQV;52
+R8
+32
+R9
+!i10b 1
+R10
+R46
+R47
+!i113 1
+R13
+R14
+Esumador_13bits
+Z48 w1648585698
+R4
+R5
+!i122 66
+R0
+Z49 8D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumador13bits.vhd
+Z50 FD:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumador13bits.vhd
 l0
 L4 1
 V2J<Qo0ciQC:meg@bZ=`5k2
 !s100 bJ=]e0N`TEdEICo[ALNUz1
 R8
 32
-Z46 !s110 1649083232
+Z51 !s110 1649084505
 !i10b 1
-Z47 !s108 1649083232.000000
-Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumador13bits.vhd|
-Z49 !s107 D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumador13bits.vhd|
+R24
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumador13bits.vhd|
+Z53 !s107 D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumador13bits.vhd|
 !i113 1
 R13
 R14
@@ -305,40 +305,40 @@ Acomportamiento
 R4
 R5
 DEx4 work 14 sumador_13bits 0 22 2J<Qo0ciQC:meg@bZ=`5k2
-!i122 49
+!i122 66
 l26
 L12 31
 V^N4n;?Af842:5R]D712NI0
 !s100 `1J26nf7VMgocEK>jHIa`3
 R8
 32
-R46
+R51
 !i10b 1
-R47
-R48
-R49
+R24
+R52
+R53
 !i113 1
 R13
 R14
 Esumador_completo
-Z50 w1648585668
+Z54 w1648585668
 R4
 R5
-!i122 48
+!i122 65
 R0
-Z51 8D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumadorcompleto.vhd
-Z52 FD:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumadorcompleto.vhd
+Z55 8D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumadorcompleto.vhd
+Z56 FD:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumadorcompleto.vhd
 l0
 L4 1
 V3g8OlbVz1L7F7KJnniF2S1
 !s100 MMD1j][89c_^[4_eFY[661
 R8
 32
-R46
+R51
 !i10b 1
-R47
-Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumadorcompleto.vhd|
-Z54 !s107 D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumadorcompleto.vhd|
+R24
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumadorcompleto.vhd|
+Z58 !s107 D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/sumadorcompleto.vhd|
 !i113 1
 R13
 R14
@@ -346,18 +346,18 @@ Acomportamiento
 R4
 R5
 DEx4 work 16 sumador_completo 0 22 3g8OlbVz1L7F7KJnniF2S1
-!i122 48
+!i122 65
 l18
 L11 17
 VP8d3JWJ4?O6n44NSHzJ1z2
 !s100 V<1;eTk0leoNjS[Z]^Ec]0
 R8
 32
-R46
+R51
 !i10b 1
-R47
-R53
-R54
+R24
+R57
+R58
 !i113 1
 R13
 R14

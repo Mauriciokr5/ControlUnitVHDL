@@ -156,6 +156,7 @@ begin
 					rd <= ResultadoOP(9 DOWNTO 0);
 			END IF;    
         when pausa =>
+			SALIDA<="000"&rd;
         end case; 
     end process;    
 	
