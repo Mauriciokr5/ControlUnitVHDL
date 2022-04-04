@@ -1,0 +1,11 @@
+#Start recording tcl command: 4/3/2022 13:01:37
+#Project Location: D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2; Project name: PRACTICA2INTENTO2
+prj_project open "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/PRACTICA2INTENTO2.ldf"
+prj_run Export -impl impl1 -task Jedecgen
+prj_src remove "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/display_4digitos.vhd"
+prj_src remove "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/decodificador_7bits.vhd"
+prj_src remove "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/convertidorbcd.vhd"
+prj_run Export -impl impl1 -task Jedecgen
+prj_src add "D:/Documentos/ESCOM/Quinto Semestre/Arquitectura de computadoras/Practica 2/PRACTICA2INTENTO2/Practica2/Practica2.spf"
+prj_run Export -impl impl1 -task Jedecgen
+#Stop recording: 4/3/2022 15:58:21

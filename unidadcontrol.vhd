@@ -66,7 +66,7 @@ architecture Behavioral of FSM is
 	
 
 begin
-	s_sel <= selector;
+	
     -- registro de estados
     process(m_clk)
     begin
@@ -81,14 +81,13 @@ begin
 	
 	
 	
-	
 
-    -- Lógica de estado siguiente (circuito combinacional)
+    -- Logica de estado siguiente
     process (edo_presente)
 	
     begin
         edo_futuro <= edo_presente; 
-		
+		IR<= MBR(27 downto 20);
         case edo_presente is 
         when fetch =>
             IF(MBR = "0000000000000000000000000000") THEN
@@ -99,29 +98,35 @@ begin
         when decodeexecute =>
             edo_futuro <= FETCH;
         when pausa =>
-            IF( SELECTOR = S_SEL) THEN
-				 edo_futuro <= pausa;
-				  ELSE
-				   edo_futuro <= fetch;
-			 end if;
         end case;
 		
     end process;
     
-    -- salida tipo Moore
+    -- Procesos maquina de estados
     process (edo_presente)
     begin
-        -- estableciendo la salida por defecto
-        -- nos aseguramos de crear un circuito
-        -- combinacional sin latches.
-        
+	
         case edo_presente is 
         when fetch => 
 			MAR<=PC;
-			PC<= PC + "000001";
-			IR<= MBR(27 downto 20);
-        when decodeexecute =>
-			IF(IR(7) = '1') THEN
+			if RST='1' then 
+				case selector is 
+				when "00" => PC <= "000000";
+				when "01" => PC <= "000110";
+				when "10" => PC <= "001110";
+				when others => PC <= "010100";
+				end case;
+            else 
+                PC<= PC + "000001";
+            end if;
+			IF(IR(7 DOWNTO 6) = "00") THEN
+			
+				A<=MBR(19 DOWNTO 10);
+				B<=MBR(9 DOWNTO 0);
+				
+			ELSIF(IR(7 DOWNTO 6) = "01") THEN
+			
+				A<=MBR(19 DOWNTO 10);
 				IF(MBR(1 DOWNTO 0) = "00") THEN
 					B<=RA;
 				ELSIF(MBR(1 DOWNTO 0) = "01") THEN
@@ -132,19 +137,46 @@ begin
 					B<=RD;
 				END IF;
 				
-				IF(MBR(10 DOWNTO 9) = "00") THEN
+			ELSIF(IR(7 DOWNTO 6) = "10") THEN
+			
+				IF(MBR(11 DOWNTO 10) = "00") THEN
 					A<=RA;
-				ELSIF(MBR(10 DOWNTO 9) = "01") THEN
+				ELSIF(MBR(11 DOWNTO 10) = "01") THEN
 					A<=RB;
-				ELSIF(MBR(10 DOWNTO 9) = "10") THEN
+				ELSIF(MBR(11 DOWNTO 10) = "10") THEN
 					A<=RC;
-				ELSIF(MBR(10 DOWNTO 9) = "11") THEN
+				ELSIF(MBR(11 DOWNTO 10) = "11") THEN
 					A<=RD;
 				END IF;
-			ELSE
-				A<=MBR(19 DOWNTO 10);
+				
 				B<=MBR(9 DOWNTO 0);
+				
+			ELSIF(IR(7 DOWNTO 6) = "11") THEN
+			
+				IF(MBR(11 DOWNTO 10) = "00") THEN
+					A<=RA;
+				ELSIF(MBR(11 DOWNTO 10) = "01") THEN
+					A<=RB;
+				ELSIF(MBR(11 DOWNTO 10) = "10") THEN
+					A<=RC;
+				ELSIF(MBR(11 DOWNTO 10) = "11") THEN
+					A<=RD;
+				END IF;
+				
+				IF(MBR(1 DOWNTO 0) = "00") THEN
+					B<=RA;
+				ELSIF(MBR(1 DOWNTO 0) = "01") THEN
+					B<=RB;
+				ELSIF(MBR(1 DOWNTO 0) = "10") THEN
+					B<=RC;
+				ELSIF(MBR(1 DOWNTO 0) = "11") THEN
+					B<=RD;
+				END IF;
+				
 			END IF;
+			
+        when decodeexecute =>
+			
 			IF(IR(5 DOWNTO 4) = "00") THEN
 					ra <= ResultadoOP(9 DOWNTO 0);
 				ELSIF(IR(5 DOWNTO 4) = "01") THEN
@@ -155,8 +187,10 @@ begin
 					rd <= ResultadoOP(9 DOWNTO 0);
 			END IF;    
         when pausa =>
+			SALIDA<="000"&rd;
         end case; 
     end process;    
+	
 	
 	CALL0: ROM PORT MAP (M_CLK,'0','1','1', MAR(5 DOWNTO 0), MBR(27 DOWNTO 0));
 	A_AUX <= "00" & A;
@@ -168,6 +202,7 @@ begin
 			  OUT_ALU => ResultadoOP,
 			  SIGNO => SIG,
 			  INDET => IDET);
+			  
 	 SALIDA <= ResultadoOP;
 
 end Behavioral;
