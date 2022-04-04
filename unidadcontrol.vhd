@@ -88,7 +88,7 @@ begin
 	
     begin
         edo_futuro <= edo_presente; 
-		
+		IR<= MBR(27 downto 20);
         case edo_presente is 
         when fetch =>
             IF(MBR = "0000000000000000000000000000") THEN
@@ -119,8 +119,7 @@ begin
         when fetch => 
 			MAR<=PC;
 			PC<= PC + "000001";
-			IR<= MBR(27 downto 20);
-        when decodeexecute =>
+			--IR<= MBR(27 downto 20);
 			IF(IR(7) = '1') THEN
 				IF(MBR(1 DOWNTO 0) = "00") THEN
 					B<=RA;
@@ -145,6 +144,8 @@ begin
 				A<=MBR(19 DOWNTO 10);
 				B<=MBR(9 DOWNTO 0);
 			END IF;
+        when decodeexecute =>
+			
 			IF(IR(5 DOWNTO 4) = "00") THEN
 					ra <= ResultadoOP(9 DOWNTO 0);
 				ELSIF(IR(5 DOWNTO 4) = "01") THEN
