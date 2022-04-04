@@ -13,10 +13,10 @@ Data_out: out std_logic_vector(27 downto 0)
 end ROM;
 --------------------------------------------------------------
 architecture Behav of ROM is
-constant x: std_logic_vector(9 downto 0):= "0000000001"; --1
-constant y: std_logic_vector(9 downto 0):= "0000000010"; --2
-constant z: std_logic_vector(9 downto 0):= "0000000011"; --3
-constant w: std_logic_vector(9 downto 0):= "0000000100"; --4
+constant x: std_logic_vector(9 downto 0):= "0000000101"; --1 --5
+constant y: std_logic_vector(9 downto 0):= "0000001001"; --2 --9
+constant z: std_logic_vector(9 downto 0):= "0000001010"; --3 --10
+constant w: std_logic_vector(9 downto 0):= "0000000010"; --4 --2
 type ROM_Array is array (0 to 31)
 of std_logic_vector(27 downto 0);
 constant Content: ROM_Array := (
@@ -33,7 +33,13 @@ constant Content: ROM_Array := (
 11 => "00011010"& Z & "0000000010", -- RB <= Z / 2
 12 => "1111100000000000000000000001", --<= RA - RB
 13 => "0000000000000000000000000000", -- PAUSA EN SISTEMA
---14 => "0010011001", -- MULT #X, DIR 9
+14 => "00001001"& x & x, -- RA <= X * X							--EC 3
+15 => "1001100100000000000000000111", -- RB <= RA * 7
+16 => "001010010000000101" & z,	-- RC <= 5 * Z
+17 => "1100011100000000010000000010", -- RA <= RB + RC
+18 => "00011010" & w & "0000000101", 	-- RB <= W / 5
+19 => "1111100000000000000000000001", -- RD <= RA - RB
+20 => "0000000000000000000000000000", -- PAUSA EN SISTEMA
 OTHERS => "1111111111111111111111111111" --
 );
 begin

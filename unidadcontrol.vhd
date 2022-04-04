@@ -25,7 +25,7 @@ architecture Behavioral of FSM is
 	-- signals registros especializados
 	
 	signal IR: std_logic_vector(7 downto 0);
-	signal PC: std_logic_vector(5 downto 0):="000110";
+	signal PC: std_logic_vector(5 downto 0):="001110";
 	signal MBR: std_logic_vector(27 downto 0);
 	signal MAR: std_logic_vector(5 downto 0);
 	
